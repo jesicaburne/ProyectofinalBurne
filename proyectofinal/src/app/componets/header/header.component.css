@@ -1,3 +1,8 @@
 div {
     background-color: antiquewhite;
 }
+
+app-redes{
+   float: right;
+   margin-top: 25px;
+}
