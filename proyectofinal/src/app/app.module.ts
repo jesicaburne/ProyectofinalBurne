@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,6 +12,8 @@ import { RedesComponent } from './components/redes/redes.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HysComponent } from './components/hys/hys.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ExperienciaComponent,
     RedesComponent,
     AcercaDeComponent,
-    EducacionComponent
+    EducacionComponent,
+    HysComponent,
+    ProyectoComponent
   ],
   imports: [
     NgCircleProgressModule.forRoot({}),
@@ -32,3 +37,4 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
